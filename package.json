@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "check-types": "tsc",
-    "check-format": "prettier --check '*/**/*.{js,jsx,ts,tsx}'"
+    "check-format": "prettier --check '*/**/*.{js,jsx,ts,tsx}'",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "14.0.4",
@@ -24,6 +25,7 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
+    "husky": "^8.0.0",
     "postcss": "^8",
     "prettier": "^3.2.4",
     "tailwindcss": "^3.3.0",
