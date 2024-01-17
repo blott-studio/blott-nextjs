@@ -6,6 +6,7 @@
     "neotan.vscode-auto-restart-typescript-eslint-servers",
     "GitHub.copilot",
     "GitHub.copilot-chat",
-    "YoavBls.pretty-ts-errors"
+    "YoavBls.pretty-ts-errors",
+    "SonarSource.sonarlint-vscode"
   ]
 }
