@@ -1,0 +1,48 @@
+name: Validate Code
+
+on:
+  push:
+    branches: ["main", "dev"]
+  pull_request:
+    branches: ["main", "dev"]
+    types: [opened, edited, reopened, synchronize]
+
+jobs:
+  lint:
+    name: Linting
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Packages
+        run: yarn install --ignore-scripts
+
+      - name: Checking
+        run: yarn run lint
+
+  check-format:
+    name: Check Formatting
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Packages
+        run: yarn install --ignore-scripts
+
+      - name: Checking
+        run: yarn run check-format
+
+  check-types:
+    name: Check Types
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Packages
+        run: yarn install --ignore-scripts
+
+      - name: Checking
+        run: yarn run check-types
