@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "neotan.vscode-auto-restart-typescript-eslint-servers",
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "YoavBls.pretty-ts-errors"
+  ]
+}
