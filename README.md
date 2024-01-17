@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+    <h1>
+        Blott Next.js Boilerplate
+    </h1>
+    Let's develop Next.js Applications in Blott's way 🙌
+</div>
+
+#### Table of Contents
+
+- [Local Development](#local-development)
+
+# Local development
+
+These instructions should get you set up ready to work 💪
 
 ## Getting Started
 
-First, run the development server:
+1. Install `nvm` then `node` & `npm`: `brew install nvm && nvm install`
+2. Install `yarn`: `npm install -g yarn`
+3. Install dependencies: `yarn`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Highly recommend to use [VSCode](https://code.visualstudio.com/) for developing on any platform.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Recommended `node` setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In order to have more consistent builds, we use a strict `node` and `npm` version as defined in the `package.json` `engines` field and `.nvmrc` file. `yarn install` will fail if you do not use the version defined, so it is recommended to install `node` via `nvm` for easy node version management. Automatic `node` version switching can be installed for [`zsh`](https://github.com/nvm-sh/nvm#zsh) or [`bash`](https://github.com/nvm-sh/nvm#bash) using `nvm`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Running the boilerplate 🚀
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- To run the **app**: `yarn run dev`
