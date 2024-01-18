@@ -2,7 +2,7 @@
     <h1>
         Blott Next.js Boilerplate
     </h1>
-    Let's develop Next.js Applications in Blott's way 🙌
+    Let's develop Next.js applications the Blott way! 🙌
 </div>
 
 #### Table of Contents
